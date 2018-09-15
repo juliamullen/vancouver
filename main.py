@@ -16,7 +16,8 @@ pygame.time.set_timer(UPDATE_WEATHER_EVENT, 600000)
 pygame.time.set_timer(UPDATE_BUS_EVENT,     60000)
 
 def draw_background():
-  screen.fill((0, 0, 0))
+  background_color = pygame.Color("white")
+  screen.fill(background_color)
 
 while True:
   for event in pygame.event.get():
