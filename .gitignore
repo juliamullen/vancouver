@@ -1,1 +1,4 @@
 secret.py
+__pycache__
+# don't include the virtualenv
+vacouver
